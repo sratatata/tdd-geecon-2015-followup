@@ -346,8 +346,8 @@ Examples: [github.com/marcingrzejszczak/geecon_tdd_cdc_examples]
 Thomas Sundberg: Behaviour Driven Development, BDD, with Cucumber
 -----------------------------------------------------------------
 
-This guy just showed Belly Groming example driven by Cucumber tests. 
-
+Thomas presented us Belly Groming example driven by Cucumber tests. 
+[ https://thomassundberg.wordpress.com/2015/01/30/bdd-with-cucumber-jvm-at-geecon-tdd-2015/ ]
 [https://thomassundberg.wordpress.com/2014/05/29/cucumber-jvm-hello-world/]
 
 There was big emphasis on readability of BDD test as an tool for comunication with business.
