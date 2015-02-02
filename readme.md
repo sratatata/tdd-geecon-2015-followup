@@ -1,4 +1,17 @@
 
+NOTE:
+=====
+
+This notes are for sure contains some errors or overinterpretation. 
+
+Most of this is content comes from my handnotes and memory, both are muuuch imperfect.
+
+*Use on your own risk.*
+
+If some fills offended please, drop me an message.
+
+
+
 Workshop: Code
 ==============
 
