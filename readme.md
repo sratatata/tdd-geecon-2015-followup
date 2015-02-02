@@ -311,11 +311,11 @@ Jakub Kubrynski, Marcin Grzejszczak: Stick to the rules! Consumer Driven Contrac
 Guys show us some tools they put toghether to be able to mock their services. And keep them synchronized during parallel development. 
 Server tests are separate from consuer tests. Stub is publicli available for clients as an contract which should not be vaiolated. 
 
-Kaczmarzyk wrote:
+[Kaczmarzyk | http://blog.kaczmarzyk.net] wrote:
 
-	Microservice oriented architecture is very popular nowadays. New testing techniques are required to support release cycles and assure that services comply with their contracts.
+"Microservice oriented architecture is very popular nowadays. New testing techniques are required to support release cycles and assure that services comply with their contracts.
 
-	Jakub Kubryński and Marcin Grzejszczak presented a very promising way to achieve that – consumer driven contracts. It is like applying TDD to API on the architectural level. In a nutshell, they use Wiremock to create stubs that are used in consumer tests. Then, with Accurate REST, they create tests for the server to verify that it sticks to the contract described by the stub. Server developers maintain and publish the stubs. The apropriate version of the stub can be fetched from the repository when testing a new version of the consumer service in the delivery pipeline.
+Jakub Kubryński and Marcin Grzejszczak presented a very promising way to achieve that – consumer driven contracts. It is like applying TDD to API on the architectural level. In a nutshell, they use Wiremock to create stubs that are used in consumer tests. Then, with Accurate REST, they create tests for the server to verify that it sticks to the contract described by the stub. Server developers maintain and publish the stubs. The apropriate version of the stub can be fetched from the repository when testing a new version of the consumer service in the delivery pipeline.""
 
 Tools:
 
@@ -484,17 +484,18 @@ Nat has introduced some of the curved in stone rules introduced by Foler, Martin
 
 Nat said:
 
-	"(...) it's not about just writing tests, but about (...) the feedback you get from your tests — Nat "
+"(...) it's not about just writing tests, but about (...) the feedback you get from your tests — Nat "
 
-From Kaczmarczyk blog: 
+From [Kaczmarzyk | http://blog.kaczmarzyk.net]: 
 
-	"That's it. When a test does not give you any real feedback, then it probably has no value. Sometimes it's better not to have a test at all when all that it gives you is just additional code to maintain. Don't write tests just for the sake of doing it. Focus on the stories that you want to tell through your tests."
+"That's it. When a test does not give you any real feedback, then it probably has no value. Sometimes it's better not to have a test at all when all that it gives you is just additional code to maintain. Don't write tests just for the sake of doing it. Focus on the stories that you want to tell through your tests."
 
 Nat also introduced some of his projects where he was breaking the rules of tdd just because TDD was not enough, he was solving some non standard problem and only way was introducing some debugging code into the platform production ready platform, just to make thair tests runnable.
 
 There was also big part about randomized tests which are giving very prommising reasults. This tests are similiar to normal tests, but with randomized arguments. And also this tests are breaking a lot of rules of standard TDD. However Nat said that: "Test automation is a search problem". 
 
 TDD is about looking for happy paths in general, rather then looking for bugs, but property based tests are about looking for unknown errors.
+
 As Donald Rumsfeld said:
 	
-	"There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don't know. But there are also unknown unknowns. There are things we don't know we don't "
+"There are known knowns. These are things we know that we know. There are known unknowns. That is to say, there are things that we know we don't know. But there are also unknown unknowns. There are things we don't know we don't "
