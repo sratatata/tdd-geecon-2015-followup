@@ -334,6 +334,9 @@ Thomas Sundberg: Behaviour Driven Development, BDD, with Cucumber
 -----------------------------------------------------------------
 
 This guy just showed Belly Groming example driven by Cucumber tests. 
+
+[https://thomassundberg.wordpress.com/2014/05/29/cucumber-jvm-hello-world/]
+
 There was big emphasis on readability of BDD test as an tool for comunication with business.
 
 Specs should be written in declarative style rather then imperative. This rule would make tests shilden from change and easier to maintain.
