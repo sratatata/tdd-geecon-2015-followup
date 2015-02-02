@@ -8,7 +8,7 @@ Most of this is content comes from my handnotes and memory, both are muuuch impe
 
 *Use on your own risk.*
 
-If some fills offended please, drop me an message.
+If someone fills offended please, drop me an message.
 
 
 
