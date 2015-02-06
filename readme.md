@@ -12,7 +12,7 @@ If someone fills offended please, drop me an message.
 
 
 
-Workshop Craftinn Code by Sandro Mancuso
+Workshop Crafting Code by Sandro Mancuso
 ========================================
 
 London vs Detroit
