@@ -12,8 +12,8 @@ If someone fills offended please, drop me an message.
 
 
 
-Workshop: Code
-==============
+Workshop Craftinn Code by Sandro Mancuso
+========================================
 
 London vs Detroit
 -----------------
@@ -21,7 +21,7 @@ London vs Detroit
 Ther are two schools: London and Classicicsts.
 London schools is propagated by Steve Freeman and Nat (Growing objective designed software driven by tests).
 
-This aproach according to Marcus:
+This aproach according to Sandro:
 * is more descriptive
 * more hard and expensivve on start
 * oriented as outside-in aproach
@@ -82,7 +82,7 @@ Roman number conversion up to 3559 (@me to be verified)
 Our class should be able to convert decimal number into roman number.
 As we learned we should start from simplest possible implementation of posibly simplest case. For example it would be number 1. For this case we are using simple String "I" return, without any variable etc. Then we should add next test for multiplications, like II and III it would would make us to write some loop or recursion. Then we could add next letter. After adding test for next letter we are trying to combine them (like ex. VI ). We are ommiting all possible exceptions and hard values like IV, as our alghoritm is not stable enough now. When we are confident about cases like (VII, XX) we can consider adding (IV  and IX). Also do not forget about removing all code duplication as soon as you are on green bar, because TDD may make you to do many code duplication. Refactor it!
 
-Marcus show us his fav. convention: Class name is ending wiht Should, and methods are reading as statement. Example: 
+Sandro show us his fav. convention: Class name is ending wiht Should, and methods are reading as statement. Example: 
 RomanConverterShould.convert_decimal_to_roman.
 
 If you see duplcation of tests, you can agreagate them into parametrized test or to one with many similiar assertions. Depends on simplicity of assertion and trigger.
@@ -128,7 +128,7 @@ Assertions were excercised on 'Bank Kata', where we head to built account and fe
 
 
 #### First test:
-Marcus explained us mentioned earlier flows. And focused on London school flow. 
+Sandro explained us mentioned earlier flows. And focused on London school flow. 
 We should start from acceptance test, which we should decide which level it is. For example it could be domian level or rest-api level. Depends on how BDD freaks we are. 
 This 
 First of all, we should start our implementation from _outside_ means from our entry point, the place where message comes in, or rest api call, user is clicking button to start something, into _in_ - inside direction. 
@@ -142,7 +142,7 @@ Depending on our aproach and dependencies, we could gain differ sequences.
 
 First of all look on legacy method and decide which path is shortest, it would often case when some GOD IF is not true, or case when some Exception is thrown.
 Then write a test which is putting class into state that this shortest path would be invoked. And assert the expected result. 
-Do it until all path are covered. Marcus showed us some Test Coverege highlighting tool in eclipse (@me maybe there is similiar tool for Idea, look for it.)
+Do it until all path are covered. Sandro showed us some Test Coverege highlighting tool in eclipse (@me maybe there is similiar tool for Idea, look for it.)
 
 <pre>
 
